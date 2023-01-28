@@ -1,0 +1,154 @@
+body { font-family: sans-serif, helvetica, arial;
+            background: #e6eeff; }
+
+header    { text-align: center;
+
+            background: #b3cbff;
+
+            padding-top: 1rem;
+
+            border-bottom: 2px solid #000;
+
+            border-top: 2px solid #000; }
+          
+
+.shadow { width: 30%;
+		  
+          float: left;  
+          
+          height: 250px;
+          
+          margin: 0px 50px; 
+    
+    	  border-radius: 50px 50px 50px 50px;
+          
+          padding:20px 40px;
+	      
+          box-shadow: 7px 2px 15px 2px #54585d52; }
+
+
+.shadow .personal {  text-align: center;
+
+                     font-weight: 700;
+		     
+  		     		 float: right;}
+
+.shadow .age {  font-weight: 700; }
+
+.shadow .edu {  font-weight: 700;
+		     
+  		        float: right;}
+
+
+.shadow2 { width: 30%;
+		  
+          float: right; 
+          
+          height: 250px;
+          
+          margin: 0px 50px; 
+    
+    	  border-radius: 50px 50px 50px 50px;
+          
+          padding:20px 40px;
+	      
+          box-shadow: 7px 2px 15px 2px #54585d52; }
+
+.shadow2 .cours aside { width: 100%;
+  		
+        	 	font-style: italic;
+  		
+        	 	background-color: lightgray;
+        
+                        font-weight: 800;
+			
+			border: 2px solid black;}
+                 
+.shadow2 .cours aside nav { text-align: center; }
+            
+.shadow2 .cours aside nav ol { display: none;
+               
+                	       margin: 5px;
+               
+               		       padding: 25px; }
+              
+.shadow2 .cours aside nav:hover ol { display: block; }
+
+.shadow2 .cours aside nav ol li { font-weight: 500;
+                  
+                   			   	  text-align: left;
+                  
+                 			 	  font-style: normal;
+   
+              			     	  color: royalblue; }
+
+
+.shadow2 .proj aside { width: 100%;
+  		
+        	 		   font-style: italic;
+  		
+        	 		   background-color: lightgray;
+        
+                	   font-weight: 800;
+
+					   border: 2px solid black; }
+                 
+.shadow2 .proj aside nav { text-align: center; }
+            
+.shadow2 .proj aside nav ol { display: none;
+               
+                	       margin: 5px;
+               
+               		       padding: 25px; }
+              
+.shadow2 .proj aside nav:hover ol { display: block; }
+
+.shadow2 .proj aside nav ol li { font-weight: 500;
+                  
+                   		 text-align: left;
+                  
+                 	         font-style: normal;
+   
+              			 color: royalblue; }
+
+.shadow2 textarea { width: 100%;
+  					
+                    height: 100px;
+  					
+                    padding: 12px 20px;
+  					
+                    box-sizing: border-box;
+  					
+                    border: 2px solid #ccc;
+  
+  		    border-radius: 4px;
+  
+  		    background-color: #f8f8f8;
+  
+  		    font-size: 16px;
+  
+  		    resize: none; }
+                             
+footer{ background: #b3cbff;
+
+        border-top: 2px solid #000;
+
+        border-bottom: 2px solid #000;
+
+        text-align: center; }
+
+
+@media only screen and (max-width: 576px) {
+  body { background: #eeccff }
+  header {background: #d580ff}
+  footer {background: #d580ff}
+}
+
+@media only screen and (max-width: 768px) {
+  body { background: #ccffdd }
+  header {background: #99ffbb}
+  footer {background: #99ffbb}
+}
+                  
+              
+          
